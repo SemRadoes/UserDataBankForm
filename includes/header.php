@@ -1,16 +1,3 @@
-<?php
-$serverName = "localhost";
-$dBuserName = "root";
-$dBPassName = "";
-$dBName = "PHPLoginsystem";
-$conn = mysqli_connect($serverName, $dBuserName, $dBPassName, $dBName);
-
-if(!$conn){
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-include_once "./bootstrap";
-?>
 
 <nav>
         <div class="container-fluid">
